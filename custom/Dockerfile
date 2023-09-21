@@ -1,2 +1,1 @@
-FROM eurobertics/openlitespeed:1.7.16-lsphp74
 RUN apt-get update && apt install -y lsphp74 lsphp74-apcu lsphp74-common lsphp74-curl lsphp74-dbg lsphp74-dev lsphp74-igbinary lsphp74-imagick lsphp74-imap lsphp74-intl lsphp74-ioncube lsphp74-json lsphp74-ldap lsphp74-memcached lsphp74-modules-source lsphp74-msgpack lsphp74-mysql lsphp74-opcache lsphp74-pear lsphp74-pgsql lsphp74-pspell lsphp74-redis lsphp74-snmp lsphp74-sqlite3 lsphp74-sybase lsphp74-tidy
